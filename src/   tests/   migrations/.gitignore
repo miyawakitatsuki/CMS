@@ -1,1 +1,13 @@
-
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+secrets/
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+.DS_Store
